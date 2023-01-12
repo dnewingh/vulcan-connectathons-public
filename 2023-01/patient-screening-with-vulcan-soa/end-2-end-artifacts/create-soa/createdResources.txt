@@ -1,0 +1,7 @@
+https://hapi.fhir.org/baseR4/
+
+https://hapi.fhir.org/baseR4/ActivityDefinition/7272040
+https://hapi.fhir.org/baseR4/PlanDefinition/7272041
+https://hapi.fhir.org/baseR4/PlanDefinition/7272042
+https://hapi.fhir.org/baseR4/PlanDefinition/7272043
+https://hapi.fhir.org/baseR4/ResearchStudy/7272044

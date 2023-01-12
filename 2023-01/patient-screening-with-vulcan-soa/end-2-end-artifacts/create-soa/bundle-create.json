@@ -1,0 +1,162 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:HematologyActivityDefinition",
+            "resource": {
+                "resourceType": "ActivityDefinition",
+                "meta": {
+                    "tag": [
+                        {
+                            "code": "202301-vulcan-soa-dn"
+                        }
+                    ]
+                },
+                "title": "HematologActivityDefinitiony",
+                "status": "active",
+                "kind": "ServiceRequest",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2093-3",
+                            "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+                        }
+                    ],
+                    "text": "Cholesterol, total"
+                }
+            },
+            "request": {
+                "method": "POST",
+                "url": "ActivityDefinition"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:BaselineVisitPlanDefinition",
+            "resource": {
+                "resourceType": "PlanDefinition",
+                "meta": {
+                    "tag": [
+                        {
+                            "code": "202301-vulcan-soa-dn"
+                        }
+                    ]
+                },
+                "title": "BaselineVisitPlanDefinition",
+                "status": "active",
+                "action": [
+                    {
+                        "title": "Hematology",
+                        "definitionUri": "urn:uuid:HematologyActivityDefinition"
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "PlanDefinition"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:ScreeningVisitPlanDefinition",
+            "resource": {
+                "resourceType": "PlanDefinition",
+                "meta": {
+                    "tag": [
+                        {
+                            "code": "202301-vulcan-soa-dn"
+                        }
+                    ]
+                },
+                "title": "ScreeningVisitPlanDefinition",
+                "status": "active",
+                "action": [
+                    {
+                        "title": "Hematology",
+                        "definitionUri": "urn:uuid:HematologyActivityDefinition"
+                    },
+                    {
+                        "title": "Eligibility Assessment",
+                        "action": [
+                            {
+                                "title": "Medical Chart Review",
+                                "action": [
+                                    {
+                                        "title": "Inclusion #1: At least 18 years of age"
+                                    },
+                                    {
+                                        "title": "Inclusion #2: Confirmed diagnosis of heart disease"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Screening Labs",
+                                "action": [
+                                    {
+                                        "title": "Inclusion #3: Normal cholesterol level (less than 200 mg/dL)"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "PlanDefinition"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:VisitSchedulePlanDefinition",
+            "resource": {
+                "resourceType": "PlanDefinition",
+                "meta": {
+                    "tag": [
+                        {
+                            "code": "202301-vulcan-soa-dn"
+                        }
+                    ]
+                },
+                "title": "VisitSchedulePlanDefinition",
+                "status": "active",
+                "action": [
+                    {
+                        "title": "ScreeningVisit",
+                        "definitionUri": "urn:uuid:ScreeningVisitPlanDefinition"
+                    },
+                    {
+                        "title": "BaselineVisit",
+                        "definitionUri": "urn:uuid:BaselineVisitPlanDefinition"
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "PlanDefinition"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:ResearchStudy",
+            "resource": {
+                "resourceType": "ResearchStudy",
+                "meta": {
+                    "tag": [
+                        {
+                            "code": "202301-vulcan-soa-dn"
+                        }
+                    ]
+                },
+                "protocol": [
+                    {
+                        "reference": "urn:uuid:VisitSchedulePlanDefinition"
+                    }
+                ],
+                "status": "active"
+            },
+            "request": {
+                "method": "POST",
+                "url": "ResearchStudy"
+            }
+        }
+    ]
+}

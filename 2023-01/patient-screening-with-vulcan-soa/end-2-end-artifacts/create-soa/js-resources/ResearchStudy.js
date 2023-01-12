@@ -1,0 +1,25 @@
+var ResearchStudy = JSON.parse(`
+{
+  "fullUrl": "urn:uuid:ResearchStudy",
+  "resource": {
+      "resourceType": "ResearchStudy",
+      "meta": {
+        "tag": [
+          {
+            "code": "202301-vulcan-soa-dn"
+          }
+        ]
+      },
+      "protocol": [
+        {
+          "reference": "urn:uuid:VisitSchedulePlanDefinition"
+        }
+      ],
+      "status": "active"
+    },
+  "request": {
+    "method": "POST",
+    "url": "ResearchStudy"
+  }
+}
+`);

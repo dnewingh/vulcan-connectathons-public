@@ -1,0 +1,462 @@
+{
+    "clinicalStudy": {
+        "uuid": "2994ce79-dfb4-45f3-8992-b0a95d65868d",
+        "studyTitle": "BioVeras Research Study - Test 001",
+        "studyType": {
+            "uuid": "58ae9999-4c8e-4a5a-8744-c55d78c8f430",
+            "code": "C98388",
+            "codeSystem": "http:www.cdisc.org",
+            "codeSystemVersion": "2022-03-25",
+            "decode": "INTERVENTIONAL"
+        },
+        "studyIdentifiers": [
+            {
+                "uuid": "0f8c61e5-4ff7-4ea2-9b9b-21f9e677a81a",
+                "studyIdentifier": "CT-GOV-1234-BV",
+                "studyIdentifierScope": {
+                    "uuid": "77fa8c3b-be1c-45fa-8831-a5a6209d92a3",
+                    "organisationIdentifier": "CT-GOV",
+                    "organisationIdentifierScheme": "FDA",
+                    "organisationName": "ClinicalTrials.gov",
+                    "organisationType": {
+                        "uuid": "9e9ca115-3fe2-4c6c-be10-fa3cc01f6d3e",
+                        "code": "C2365x",
+                        "codeSystem": "http:www.cdisc.org",
+                        "codeSystemVersion": "1",
+                        "decode": "Clinical Study Sponsor"
+                    }
+                }
+            }
+        ],
+        "studyPhase": {
+            "uuid": "6d191bec-420b-4627-9778-5f05cacdf3eb",
+            "code": "C49686",
+            "codeSystem": "http:www.cdisc.org",
+            "codeSystemVersion": "2022-03-25",
+            "decode": "Phase IIa Trial"
+        },
+        "studyProtocolVersions": [
+            {
+                "uuid": "ce4607c8-e38e-40e1-898a-8d135e9ab7cc",
+                "briefTitle": "Updated Title",
+                "officialTitle": "Very Official",
+                "protocolAmendment": "Ammendment",
+                "protocolEffectiveDate": "2022-01-01",
+                "protocolStatus": [
+                    {
+                        "uuid": "e235119f-6999-49f0-9bea-a64a24d7c293",
+                        "code": "C1113x",
+                        "codeSystem": "http:www.cdisc.org",
+                        "codeSystemVersion": "1",
+                        "decode": "FINAL 1"
+                    }
+                ],
+                "protocolVersion": "1.01",
+                "publicTitle": "Public Voice",
+                "scientificTitle": "Incomprehensible"
+            }
+        ],
+        "studyDesigns": [
+            {
+                "uuid": "0875d003-8420-46f5-94b3-5803326c90b4",
+                "interventionModel": [
+                    {
+                        "uuid": "983e0fff-23ff-4bf8-8283-b1ff3c41307b",
+                        "code": "C82639",
+                        "codeSystem": "http:www.cdisc.org",
+                        "codeSystemVersion": "2022-03-25",
+                        "decode": "Parallel Study"
+                    }
+                ],
+                "trialIntentType": [
+                    {
+                        "uuid": "eb1f405a-cc0f-412b-bedd-0bd2e2c19e4d",
+                        "code": "C15714",
+                        "codeSystem": "http:www.cdisc.org",
+                        "codeSystemVersion": "2022-03-25",
+                        "decode": "Basic Research"
+                    }
+                ],
+                "trialType": [
+                    {
+                        "uuid": "7f3e806d-2fce-4955-8a47-f97b96aba3ab",
+                        "code": "C158288",
+                        "codeSystem": "http:www.cdisc.org",
+                        "codeSystemVersion": "2022-03-25",
+                        "decode": "Biosimilarity Study"
+                    }
+                ],
+                "studyIndications": [
+                    {
+                        "uuid": "c89f706e-8a7c-4f40-a163-bae9a0b872c4",
+                        "indicationDesc": "Something bad",
+                        "codes": [
+                            {
+                                "uuid": "9d3f90f8-a404-46f0-b6ad-24a0feb9e5b4",
+                                "code": "C6666x",
+                                "codeSystem": "http:www.cdisc.org",
+                                "codeSystemVersion": "1",
+                                "decode": "BAD STUFF"
+                            }
+                        ]
+                    }
+                ],
+                "studyInvestigationalInterventions": [
+                    {
+                        "uuid": "085c0b1f-61ab-43c2-8134-f0e13af599c0",
+                        "interventionDesc": "Intervention 1",
+                        "codes": [
+                            {
+                                "uuid": "0a1fa10b-946e-46e8-9550-6a9abc1596bc",
+                                "code": "C7639x",
+                                "codeSystem": "http:www.cdisc.org",
+                                "codeSystemVersion": "1",
+                                "decode": "MODEL 1"
+                            }
+                        ]
+                    }
+                ],
+                "studyObjectives": [
+                    {
+                        "uuid": "1a7bd938-a510-45e0-9810-f56a76c53924",
+                        "objectiveDesc": "Objective Level 1",
+                        "objectiveLevel": [
+                            {
+                                "uuid": "c3112bbc-08ca-4066-ad7c-0f1b6256ae30",
+                                "code": "C9844x",
+                                "codeSystem": "http:www.cdisc.org",
+                                "codeSystemVersion": "1",
+                                "decode": "OBJ LEVEL"
+                            }
+                        ],
+                        "objectiveEndpoints": [
+                            {
+                                "uuid": "fbb56791-6267-492c-88b9-8c2de11a2e44",
+                                "endpointDesc": "Endpoint 1",
+                                "endpointPurposeDesc": "level description",
+                                "endpointLevel": [
+                                    {
+                                        "uuid": "8c3a7326-22e4-4bd7-8b7a-091817289c61",
+                                        "code": "C9834x",
+                                        "codeSystem": "http:www.cdisc.org",
+                                        "codeSystemVersion": "1",
+                                        "decode": "PURPOSE"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "studyPopulations": [
+                    {
+                        "uuid": "3099d4bf-66c5-4d64-a5c1-32372504e04f",
+                        "populationDesc": "Population 1"
+                    }
+                ],
+                "studyCells": [
+                    {
+                        "uuid": "74fb9c68-403f-4eed-88ff-0c717a71d54a",
+                        "studyArm": {
+                            "uuid": "2064fa8d-8d26-4d0a-8477-43f05c6a4585",
+                            "studyArmDataOriginDesc": "Captured subject data",
+                            "studyArmDataOriginType": [
+                                {
+                                    "uuid": "a384b850-e790-4564-a490-95a5e82f425b",
+                                    "code": "C6574y",
+                                    "codeSystem": "http:www.cdisc.org",
+                                    "codeSystemVersion": "1",
+                                    "decode": "SUBJECT DATA"
+                                }
+                            ],
+                            "studyArmDesc": "The Placebo Arm",
+                            "studyArmName": "Placebo",
+                            "studyArmType": [
+                                {
+                                    "uuid": "812a304d-c7e8-48c6-9226-5482b1a6f77f",
+                                    "code": "C174268",
+                                    "codeSystem": "http:www.cdisc.org",
+                                    "codeSystemVersion": "2022-03-25",
+                                    "decode": "Placebo Control Arm"
+                                }
+                            ]
+                        },
+                        "studyEpoch": {
+                            "uuid": "43863b73-f1ac-4019-babe-195738ac9acb",
+                            "nextStudyEpochId": "c0d6b66e-0831-4f7d-94a2-1e12b6b58500",
+                            "previousStudyEpochId": "c0d6b66e-0831-4f7d-94a2-1e12b6b58501",
+                            "studyEpochDesc": "The run in",
+                            "studyEpochName": "Run In",
+                            "studyEpochType": [
+                                {
+                                    "uuid": "04caab16-7f23-4469-8dd1-f70bb026bfac",
+                                    "code": "C98779",
+                                    "codeSystem": "http:www.cdisc.org",
+                                    "codeSystemVersion": "2022-03-25",
+                                    "decode": "Run-in Period"
+                                }
+                            ],
+                            "encounters": [
+                                {
+                                    "uuid": "1f0d6980-189a-43ab-90b6-967598b92ff6",
+                                    "encounterContactMode": [
+                                        {
+                                            "uuid": "029cb01f-9c91-4481-8eb4-4f75080e74a5",
+                                            "code": "C1755745",
+                                            "codeSystem": "http:www.cdisc.org",
+                                            "codeSystemVersion": "2022-03-25",
+                                            "decode": "In Person"
+                                        }
+                                    ],
+                                    "encounterDesc": "desc",
+                                    "encounterEnvironmentalSetting": [
+                                        {
+                                            "uuid": "d7f941cd-b7af-4c1b-b5ac-e89a8f27fd1e",
+                                            "code": "C51282",
+                                            "codeSystem": "http:www.cdisc.org",
+                                            "codeSystemVersion": "2022-03-25",
+                                            "decode": "Clinic"
+                                        }
+                                    ],
+                                    "encounterName": "Encounter 1",
+                                    "encounterType": [
+                                        {
+                                            "uuid": "377069e6-89e7-47d2-aa69-f4ef00e1ca72",
+                                            "code": "C7652x",
+                                            "codeSystem": "http:www.cdisc.org",
+                                            "codeSystemVersion": "1",
+                                            "decode": "SITE VISIT"
+                                        }
+                                    ],
+                                    "nextEncounterId": "c0d6b66e-0831-4f7d-94a2-1e12b6b58500",
+                                    "previousEncounterId": "c0d6b66e-0831-4f7d-94a2-1e12b6b58501",
+                                    "transitionStartRule": {
+                                        "uuid": "81911198-1c84-4751-85a7-05a2db46ac61",
+                                        "transitionRuleDesc": "Start Rule"
+                                    },
+                                    "transitionEndRule": {
+                                        "uuid": "f6ce3459-4d0a-4756-a503-30c9e272fcba",
+                                        "transitionRuleDesc": "End Rule"
+                                    }
+                                }
+                            ]
+                        },
+                        "studyElements": [
+                            {
+                                "uuid": "95cc8977-3401-4b7c-b52c-bb255bcf44ad",
+                                "studyElementDesc": "First element",
+                                "studyElementName": "Element 1",
+                                "transitionStartRule": {
+                                    "uuid": "3962c4e1-f32c-43fc-98b2-15a626f60390",
+                                    "transitionRuleDesc": "Start Rule"
+                                },
+                                "transitionEndRule": {
+                                    "uuid": "236eec57-4f22-4861-9608-3b8a70d54655",
+                                    "transitionRuleDesc": "End Rule"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "studyWorkflows": [
+                    {
+                        "uuid": "79b115c3-d8ba-44b7-bafe-3ea588c9f2c1",
+                        "workflowDesc": "Study Schedule of Activities",
+                        "workflowItems": [
+                            {
+                                "uuid": "f26d32cc-03e3-4321-878e-6d35d4b02072",
+                                "workflowItemDesc": "Eligibility Screening",
+                                "workflowItemActivity": {
+                                    "uuid": "99b4702a-7745-4968-8aa4-35da91d4ddbd",
+                                    "activityDesc": "Inclusion and Exclusion criteria evaluation",
+                                    "activityName": "Medical Chart Review",
+                                    "definedProcedures": [],
+                                    "nextActivityId": "e61acf2c-03e2-4eac-9413-359a7c10e470",
+                                    "previousActivityId": "",
+                                    "studyDataCollection": [
+                                        {
+                                            "uuid": "932b44df-9f69-4451-b4a0-1a5ae284ee5e",
+                                            "studyDataName": "Inclusion Criteria #1",
+                                            "studyDataDesc": "At least 18 years of age",
+                                            "crfLink": "N/A"
+                                        },
+                                        {
+                                            "uuid": "070cd14a-1b5e-4d23-ab25-3a8e58f813c6",
+                                            "studyDataName": "Inclusion Criteria #2",
+                                            "studyDataDesc": "Confirmed diagnosis of heart disease",
+                                            "crfLink": "N/A"
+                                        },
+                                        {
+                                            "uuid": "d766ef5a-5b00-47ed-8ae4-7bec251bc107",
+                                            "studyDataName": "Exclusion Criteria #1",
+                                            "studyDataDesc": "Patients who cannot tolerate penicillin",
+                                            "crfLink": "N/A"
+                                        }
+                                    ]
+                                },
+                                "workflowItemEncounter": {
+                                    "uuid": "1b787566-0ac6-4703-bcea-099f96bfa102",
+                                    "encounterContactMode": [
+                                        {
+                                            "uuid": "f0745cb0-74de-410e-8a4e-b5966d5e3ed2",
+                                            "code": "C175574",
+                                            "codeSystem": "http:www.cdisc.org",
+                                            "codeSystemVersion": "2022-03-25",
+                                            "decode": "In Person"
+                                        }
+                                    ],
+                                    "encounterDesc": "SCREENING",
+                                    "encounterEnvironmentalSetting": [
+                                        {
+                                            "uuid": "02e63718-35c5-43bd-a5cd-043a78d71dce",
+                                            "code": "C51282",
+                                            "codeSystem": "http:www.cdisc.org",
+                                            "codeSystemVersion": "2022-03-25",
+                                            "decode": "Clinic"
+                                        }
+                                    ],
+                                    "encounterName": "SCREENING",
+                                    "encounterType": [
+                                        {
+                                            "uuid": "0bea9d6b-cbf8-4f2f-88be-3aaaa73ccc1c",
+                                            "code": "C7652x",
+                                            "codeSystem": "http:www.cdisc.org",
+                                            "codeSystemVersion": "1",
+                                            "decode": "SITE VISIT"
+                                        }
+                                    ],
+                                    "nextEncounterId": "c0d6b66e-0831-4f7d-94a2-1e12b6b58500",
+                                    "previousEncounterId": "c0d6b66e-0831-4f7d-94a2-1e12b6b58501",
+                                    "transitionStartRule": {
+                                        "uuid": "13a88a53-744d-4bf8-99b6-c184959d2e7f",
+                                        "transitionRuleDesc": "Start Rule"
+                                    },
+                                    "transitionEndRule": {
+                                        "uuid": "5d764a19-822e-4b4b-9072-65f714417b05",
+                                        "transitionRuleDesc": "End Rule"
+                                    }
+                                },
+                                "nextWorkflowItemId": "98cdb05e-233a-47bc-bba5-f7faaf2d2ae4",
+                                "previousWorkflowItemId": ""
+                            },
+                            {
+                                "uuid": "00ee33f0-2db1-4d49-8aac-dc762c5c20d8",
+                                "workflowItemDesc": "Eligibility Screening",
+                                "workflowItemActivity": {
+                                    "uuid": "acb36550-9f3e-4124-b118-d2b7d16b86d3",
+                                    "activityDesc": "Inclusion and Exclusion criteria evaluation",
+                                    "activityName": "Screening Labs Review",
+                                    "definedProcedures": [],
+                                    "nextActivityId": "",
+                                    "previousActivityId": "99b4702a-7745-4968-8aa4-35da91d4ddbd",
+                                    "studyDataCollection": [
+                                        {
+                                            "uuid": "417e15f2-8015-4983-819d-3f2384533c2b",
+                                            "studyDataName": "Inclusion Criteria #3",
+                                            "studyDataDesc": "Normal cholesterol level (less than 200 mg/dL)",
+                                            "crfLink": "N/A"
+                                        }
+                                    ]
+                                },
+                                "workflowItemEncounter": {
+                                    "uuid": "f1b2c159-6d9d-4a6b-80e2-9b2d47cca63c",
+                                    "encounterContactMode": [
+                                        {
+                                            "uuid": "21274a60-1234-4dc6-986a-80ab8d6bc9c3",
+                                            "code": "C175574",
+                                            "codeSystem": "http:www.cdisc.org",
+                                            "codeSystemVersion": "2022-03-25",
+                                            "decode": "In Person"
+                                        }
+                                    ],
+                                    "encounterDesc": "SCREENING",
+                                    "encounterEnvironmentalSetting": [
+                                        {
+                                            "uuid": "8d8155cd-e938-4902-bd0e-937164298a6b",
+                                            "code": "C51282",
+                                            "codeSystem": "http:www.cdisc.org",
+                                            "codeSystemVersion": "2022-03-25",
+                                            "decode": "Clinic"
+                                        }
+                                    ],
+                                    "encounterName": "SCREENING",
+                                    "encounterType": [
+                                        {
+                                            "uuid": "7905645e-54c6-40c1-bf73-b36162afeef7",
+                                            "code": "C7652x",
+                                            "codeSystem": "http:www.cdisc.org",
+                                            "codeSystemVersion": "1",
+                                            "decode": "SITE VISIT"
+                                        }
+                                    ],
+                                    "nextEncounterId": "c0d6b66e-0831-4f7d-94a2-1e12b6b58500",
+                                    "previousEncounterId": "c0d6b66e-0831-4f7d-94a2-1e12b6b58501",
+                                    "transitionStartRule": {
+                                        "uuid": "a370507a-ff39-4cd6-80b7-8ecac35c7479",
+                                        "transitionRuleDesc": "Start Rule"
+                                    },
+                                    "transitionEndRule": {
+                                        "uuid": "79869197-af1c-43d9-aa2c-dcdc2040bdb4",
+                                        "transitionRuleDesc": "End Rule"
+                                    }
+                                },
+                                "nextWorkflowItemId": "",
+                                "previousWorkflowItemId": "f26d32cc-03e3-4321-878e-6d35d4b02072"
+                            }
+                        ]
+                    }
+                ],
+                "studyEstimands": [
+                    {
+                        "uuid": "36249eb0-88df-4895-b375-7541a654d567",
+                        "treatment": {
+                            "uuid": "f3843052-31e8-413e-b8fb-d2bc77a83f1a",
+                            "interventionDesc": "Intervention 1",
+                            "codes": [
+                                {
+                                    "uuid": "23a2eae3-6103-448e-9b51-e0714b6d35bb",
+                                    "code": "C7639x",
+                                    "codeSystem": "http:www.cdisc.org",
+                                    "codeSystemVersion": "1",
+                                    "decode": "MODEL 1"
+                                }
+                            ]
+                        },
+                        "summaryMeasure": "TEST",
+                        "analysisPopulation": {
+                            "uuid": "ff1d7f12-af9e-4a6d-9afd-3b159d1597c2",
+                            "populationDesc": "Population 1"
+                        },
+                        "variableOfInterest": {
+                            "uuid": "ff246168-1cb3-47b2-a534-2981e805e815",
+                            "endpointDesc": "Endpoint 1",
+                            "endpointPurposeDesc": "level description",
+                            "endpointLevel": [
+                                {
+                                    "uuid": "c2dd45f6-1180-4da7-87ab-b0308358fffd",
+                                    "code": "C9834x",
+                                    "codeSystem": "http:www.cdisc.org",
+                                    "codeSystemVersion": "1",
+                                    "decode": "PURPOSE"
+                                }
+                            ]
+                        },
+                        "intercurrentEvents": [
+                            {
+                                "uuid": "6360789b-79be-4481-bf92-4481d8295836",
+                                "intercurrentEventDesc": "Event 1 Desc",
+                                "intercurrentEventName": "Event 1 Name",
+                                "intercurrentEventStrategy": "Strategy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "studyVersion": "1"
+    },
+    "auditTrail": {
+        "entryDateTime": "2022-09-26T15:39:18.363Z",
+        "SDRUploadVersion": 4,
+        "SDRUploadVersionEdit": "Value updated from 3 to 4"
+    }
+}

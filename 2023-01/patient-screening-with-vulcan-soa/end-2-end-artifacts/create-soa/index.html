@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="./js-resources/HematologyActivityDefinition.js"></script>
+    <script src="./js-resources/BaselineVisitPlanDefinition.js"></script>
+    <script src="./js-resources/ScreeningVisitPlanDefinition.js"></script>
+    <script src="./js-resources/VisitSchedulePlanDefinition.js"></script>
+    <script src="./js-resources/ResearchStudy.js"></script>
+</head>
+<body>
+    <div>
+        <h4>Bundle</h4>
+        <pre id="output">Loading...</pre>
+    </div>
+    <script>
+        const bundle = {
+            resourceType: 'Bundle',
+            type: 'transaction',
+            entry: []
+        };
+
+        bundle.entry.push(HematologyActivityDefinition);
+        bundle.entry.push(BaselineVisitPlanDefinition);
+        bundle.entry.push(ScreeningVisitPlanDefinition);
+        bundle.entry.push(VisitSchedulePlanDefinition);
+        bundle.entry.push(ResearchStudy);
+
+        document.getElementById("output").innerText = JSON.stringify(bundle, null, 4);
+    </script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+[
+    {
+        "studyId": "2994ce79-dfb4-45f3-8992-b0a95d65868d",
+        "SDRUploadVersion": [
+            {
+                "uploadVersion": 1,
+                "studyTitle": "BioVeras Research Study - Test 001",
+                "studyVersion": "1",
+                "studyIdentifiers": [
+                    {
+                        "uuid": "0f8c61e5-4ff7-4ea2-9b9b-21f9e677a81a",
+                        "studyIdentifier": "CT-GOV-1234",
+                        "studyIdentifierScope": {
+                            "uuid": "77fa8c3b-be1c-45fa-8831-a5a6209d92a3",
+                            "organisationIdentifier": "CT-GOV",
+                            "organisationIdentifierScheme": "FDA",
+                            "organisationName": "ClinicalTrials.gov",
+                            "organisationType": {
+                                "uuid": "9e9ca115-3fe2-4c6c-be10-fa3cc01f6d3e",
+                                "code": "C2365x",
+                                "codeSystem": "http:www.cdisc.org",
+                                "codeSystemVersion": "1",
+                                "decode": "Clinical Study Sponsor"
+                            }
+                        }
+                    },
+                    {
+                        "uuid": "04de7e83-a93f-48a4-9215-978252b35d8e",
+                        "studyIdentifier": "CT-GOV-1234",
+                        "studyIdentifierScope": {
+                            "uuid": "b1f3c983-71c7-4220-8e43-9e79eb353eb4",
+                            "organisationIdentifier": "CT-GOV",
+                            "organisationIdentifierScheme": "FDA",
+                            "organisationName": "ClinicalTrials.gov",
+                            "organisationType": {
+                                "uuid": "5056d2ca-d6a5-4d6e-b277-3db3c35a444d",
+                                "code": "C2365x",
+                                "codeSystem": "http:www.cdisc.org",
+                                "codeSystemVersion": "1",
+                                "decode": "Clinical Study Registry"
+                            }
+                        }
+                    }
+                ],
+                "protocolVersions": [
+                    "1"
+                ]
+            },
+            {
+                "uploadVersion": 2,
+                "studyTitle": "BioVeras Research Study - Test 001",
+                "studyVersion": "1",
+                "studyIdentifiers": [
+                    {
+                        "uuid": "0f8c61e5-4ff7-4ea2-9b9b-21f9e677a81a",
+                        "studyIdentifier": "CT-GOV-1234",
+                        "studyIdentifierScope": {
+                            "uuid": "77fa8c3b-be1c-45fa-8831-a5a6209d92a3",
+                            "organisationIdentifier": "CT-GOV",
+                            "organisationIdentifierScheme": "FDA",
+                            "organisationName": "ClinicalTrials.gov",
+                            "organisationType": {
+                                "uuid": "9e9ca115-3fe2-4c6c-be10-fa3cc01f6d3e",
+                                "code": "C2365x",
+                                "codeSystem": "http:www.cdisc.org",
+                                "codeSystemVersion": "1",
+                                "decode": "Clinical Study Sponsor"
+                            }
+                        }
+                    },
+                    {
+                        "uuid": "04de7e83-a93f-48a4-9215-978252b35d8e",
+                        "studyIdentifier": "CT-GOV-1234",
+                        "studyIdentifierScope": {
+                            "uuid": "b1f3c983-71c7-4220-8e43-9e79eb353eb4",
+                            "organisationIdentifier": "CT-GOV",
+                            "organisationIdentifierScheme": "FDA",
+                            "organisationName": "ClinicalTrials.gov",
+                            "organisationType": {
+                                "uuid": "5056d2ca-d6a5-4d6e-b277-3db3c35a444d",
+                                "code": "C2365x",
+                                "codeSystem": "http:www.cdisc.org",
+                                "codeSystemVersion": "1",
+                                "decode": "Clinical Study Registry"
+                            }
+                        }
+                    }
+                ],
+                "protocolVersions": [
+                    "1.01"
+                ]
+            },
+            {
+                "uploadVersion": 3,
+                "studyTitle": "BioVeras Research Study - Test 001",
+                "studyVersion": "1",
+                "studyIdentifiers": [
+                    {
+                        "uuid": "0f8c61e5-4ff7-4ea2-9b9b-21f9e677a81a",
+                        "studyIdentifier": "CT-GOV-1234-BV",
+                        "studyIdentifierScope": {
+                            "uuid": "77fa8c3b-be1c-45fa-8831-a5a6209d92a3",
+                            "organisationIdentifier": "CT-GOV",
+                            "organisationIdentifierScheme": "FDA",
+                            "organisationName": "ClinicalTrials.gov",
+                            "organisationType": {
+                                "uuid": "9e9ca115-3fe2-4c6c-be10-fa3cc01f6d3e",
+                                "code": "C2365x",
+                                "codeSystem": "http:www.cdisc.org",
+                                "codeSystemVersion": "1",
+                                "decode": "Clinical Study Sponsor"
+                            }
+                        }
+                    }
+                ],
+                "protocolVersions": [
+                    "1.01"
+                ]
+            },
+            {
+                "uploadVersion": 4,
+                "studyTitle": "BioVeras Research Study - Test 001",
+                "studyVersion": "1",
+                "studyIdentifiers": [
+                    {
+                        "uuid": "0f8c61e5-4ff7-4ea2-9b9b-21f9e677a81a",
+                        "studyIdentifier": "CT-GOV-1234-BV",
+                        "studyIdentifierScope": {
+                            "uuid": "77fa8c3b-be1c-45fa-8831-a5a6209d92a3",
+                            "organisationIdentifier": "CT-GOV",
+                            "organisationIdentifierScheme": "FDA",
+                            "organisationName": "ClinicalTrials.gov",
+                            "organisationType": {
+                                "uuid": "9e9ca115-3fe2-4c6c-be10-fa3cc01f6d3e",
+                                "code": "C2365x",
+                                "codeSystem": "http:www.cdisc.org",
+                                "codeSystemVersion": "1",
+                                "decode": "Clinical Study Sponsor"
+                            }
+                        }
+                    }
+                ],
+                "protocolVersions": [
+                    "1.01"
+                ]
+            }
+        ]
+    }
+]
