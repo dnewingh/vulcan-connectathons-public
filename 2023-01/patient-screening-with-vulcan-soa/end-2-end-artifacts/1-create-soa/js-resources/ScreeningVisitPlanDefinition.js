@@ -11,6 +11,7 @@ var ScreeningVisitPlanDefinition = JSON.parse(`
       ]
     },
     "title": "ScreeningVisitPlanDefinition",
+    "version": "Protocol #: SOA-WITH-ELLIE-001 v1.0",
     "status": "active",
     "action": [
       {
