@@ -20,7 +20,35 @@ var VisitSchedulePlanDefinition = JSON.parse(`
         },
         {
           "title": "BaselineVisit",
-          "definitionUri": "urn:uuid:BaselineVisitPlanDefinition"
+          "definitionUri": "urn:uuid:BaselineVisitPlanDefinition",
+          "relatedAction" : [
+            {
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/uv/vulcan-schedule/StructureDefinition/AcceptableOffsetRangeSoa",
+                  "valueRange" : {
+                    "low" : {
+                      "value" : 3,
+                      "system" : "http://unitsofmeasure.org",
+                      "code" : "d"
+                    },
+                    "high" : {
+                      "value" : 7,
+                      "system" : "http://unitsofmeasure.org",
+                      "code" : "d"
+                    }
+                  }
+                }
+              ],
+              "actionId" : "ScreeningVisit",
+              "relationship" : "after",
+              "offsetDuration" : {
+                "value" : 5,
+                "system" : "http://unitsofmeasure.org",
+                "code" : "d"
+              }
+            }
+          ]
         }
       ]
     },
