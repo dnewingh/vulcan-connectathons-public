@@ -10,7 +10,7 @@ var HematologyActivityDefinition = JSON.parse(`
         }
       ]
     },
-    "title": "HematologActivityDefinitiony",
+    "title": "HematologyActivityDefinition",
     "status": "active",
     "kind": "ServiceRequest",
     "code": {
