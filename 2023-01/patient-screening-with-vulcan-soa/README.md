@@ -13,3 +13,17 @@ PWD: EpicFhir11!
 Example Patients
 - Davis, Elijah John
 - McGinnis, Warren James
+
+# Connectathon Summary
+
+## Key Activities
+Extended patient screening SMART on FHIR app (Ellie) with two additional features
+1. Verify study definition configuration against Vulcan-SoA prior to initiating patient screening
+2. Display visit window based on Vulcan-SoA for scheduling next visit after completing patient screening
+
+## Key Observations
+- Connecting to a FHIR server to consume Vulcan-SoA resources is easy.  Especially compared to alternative study definition repositories which are implemented on non-FHIR stacks (i.e. DDF)
+- Additional guidance in the IG would be helpful to clarify how Version should be propogated across child SoA resources
+- Additional guidance in the IG would be helpful to clarify how to specify action.id and action.relatedAction.actionId
+- Additional guidance in the IG would be helpful to clarify how common visit types / actitivies should be modelled in order to streamline consumption (i.e. should Eligiblity Assessment be free text PlanDefinition.actions, or a Questionnaire, or a Group, etc..)
+
