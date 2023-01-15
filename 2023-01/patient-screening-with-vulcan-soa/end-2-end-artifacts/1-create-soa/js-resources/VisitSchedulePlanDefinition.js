@@ -15,10 +15,12 @@ var VisitSchedulePlanDefinition = JSON.parse(`
       "status": "active",
       "action": [
         {
+          "id": "ScreeningVisit",
           "title": "ScreeningVisit",
           "definitionUri": "urn:uuid:ScreeningVisitPlanDefinition"
         },
         {
+          "id": "BaselineVisit",
           "title": "BaselineVisit",
           "definitionUri": "urn:uuid:BaselineVisitPlanDefinition",
           "relatedAction" : [
