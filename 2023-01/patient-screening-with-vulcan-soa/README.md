@@ -5,7 +5,7 @@ This project contains various artifacts utilized for testing the *Patient Screen
 - **legacy-data**: contains reference data from past work that may be useful for building end-2-end artifacts
 
 # Staging Environment
-https://happy-cliff-05ae6870f-5.eastus2.2.azurestaticapps.net/launch-selector
+https://vulcan.bioveras.com/
 
 UN: FHIRTWO
 PWD: EpicFhir11!
